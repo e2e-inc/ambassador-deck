@@ -9,7 +9,8 @@
     "export": "node scripts/deck.mjs export",
     "shots": "node scripts/deck.mjs shots",
     "check": "node scripts/check.mjs",
-    "new": "node scripts/new.mjs"
+    "new": "node scripts/new.mjs",
+    "site": "node scripts/site.mjs"
   },
   "dependencies": {
     "@slidev/cli": "53.1.0",

@@ -3,6 +3,9 @@
 The main e2e talk, as a deck you can make your own: add your name and your project,
 translate it, add slides, and it still looks like e2e.
 
+See it first: the [main deck](https://e2e-ambassador-deck.vercel.app) and
+[every slide pattern](https://e2e-ambassador-deck.vercel.app/patterns/). Arrow keys move between slides.
+
 It is written in [Slidev](https://sli.dev) markdown on the e2e design system, and it is
 built to be edited with a coding agent. Open the folder in Claude Code, Cursor, Codex or
 any other agent and ask for what you need. [AGENTS.md](AGENTS.md) tells the agent the rules.
@@ -44,6 +47,7 @@ pnpm shots <deck>     # one PNG per slide, in shots/<deck>/
 pnpm export <deck>    # a PDF, in dist/
 pnpm build <deck>     # a static site you can host, in dist/<deck>/
 pnpm dev patterns     # every slide pattern you can copy
+pnpm site             # the public preview: main deck and patterns, in dist/site/
 ```
 
 `pnpm install` also downloads the headless browser that `check`, `shots` and `export` use.
