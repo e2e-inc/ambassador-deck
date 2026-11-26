@@ -46,6 +46,10 @@ src: ../../slides/en/explore.md
 ---
 
 ---
+src: ../../slides/en/bug-bash.md
+---
+
+---
 src: ../../slides/en/real-test.md
 ---
 
