@@ -1,0 +1,25 @@
+{
+  "name": "slidev-theme-e2e",
+  "version": "0.0.0",
+  "private": true,
+  "keywords": [
+    "slidev",
+    "slidev-theme"
+  ],
+  "type": "module",
+  "dependencies": {
+    "@slidev/types": "53.1.0",
+    "unocss": "^66.13.0"
+  },
+  "engines": {
+    "slidev": ">=53.0.0"
+  },
+  "slidev": {
+    "colorSchema": "dark",
+    "defaults": {
+      "canvasWidth": 1280,
+      "aspectRatio": "16/9",
+      "transition": "fade"
+    }
+  }
+}

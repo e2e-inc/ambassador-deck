@@ -1,0 +1,22 @@
+{
+  "name": "e2e-ambassador-deck",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "node scripts/deck.mjs dev",
+    "build": "node scripts/deck.mjs build",
+    "export": "node scripts/deck.mjs export",
+    "shots": "node scripts/deck.mjs shots",
+    "check": "node scripts/check.mjs",
+    "new": "node scripts/new.mjs"
+  },
+  "dependencies": {
+    "@slidev/cli": "53.1.0",
+    "slidev-theme-e2e": "workspace:*",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "playwright-chromium": "1.65.1"
+  }
+}

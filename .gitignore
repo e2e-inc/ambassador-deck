@@ -1,0 +1,15 @@
+node_modules
+dist
+shots
+.slidev
+*.local
+.DS_Store
+
+# Cassette is licensed by e2e. The files live here on your machine and never in git.
+theme/assets/fonts/*
+!theme/assets/fonts/README.md
+*.otf
+*.ttf
+Cassette*
+*.pdf
+components.d.ts

@@ -1,0 +1,7 @@
+packages:
+  # The Slidev theme (slidev-theme-e2e), a package of its own.
+  - theme
+
+allowBuilds:
+  # Downloads the headless browser that check, shots and export use.
+  playwright-chromium: true
